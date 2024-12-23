@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etmaad</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/etmaad.css">
+</head>
+<body>
+    
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./image/icon-1.jpg" alt="" width="30" height="30">
+        <span style="font-weight: bold; color: black;">berim</span><span style="color: green;">bolo</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about us">about us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <button type="button" class="btn btn-dark nav-item " data-bs-toggle="modal" data-bs-target="#loginModal">
+            Login 
+            <img src="./image/user.png" class="img-fluid" width="30" height="30" alt="">
+          </button>        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-success-subtle">
+          <h4 class="modal-title" >Login
+            <img src="./image/user12.png" alt="" class="img-fluid" width="30" height="30">
+          </h4>
+          <button type="button" class="btn-close " data-bs-dismiss="modal" ></button>
+        </div>
+        <div class="modal-body bg-success-subtle">
+          <form id="loginForm">
+            <div class="mb-3">
+              <label class="form-label">email</label>
+              <input type="email" class="form-control" id="email"   name="email     required>
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <button type="submit" class="btn btn-outline-success w-100">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Hero Section -->
+  <section class="hero-section d-flex align-items-center " style="color: white; height: 100vh; " id="home">
+    <div class="container text-center text-lg-start">
+      <div class="hero-content" style="max-width: 600px;">
+        <h1 class="display-4 fw-bold">Building <span style="color: #28a745;">trust</span> with security!</h1>
+        <p class="mt-3">Their product exceeded my daily design routine expectations. The quality and attention to detail were outstanding.</p>
+        <a href="#" class="btn btn-outline-success mt-4" style="background-color:#28a745; color:white;">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+
+<!-- about us header -->
+ <section id="about us" class="about-us-header text-light p-5 text-center">
+  <h1 style="font-size: 2.5rem;">about us</h1>
+ </section>
+
+ <section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img src="./image/hello.jpg" alt="Security Devices Image" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-8">
+        <p >
+       <h6 class="text-success">  At berimbolo security</h6> , we provide a wide range of state-of-the-art security devices designed to ensure 
+          the safety and protection of your home, business, and assets. Our products include:
+        </p>
+        <ul>
+          <li><b>Surveillance Cameras:</b> High-definition cameras for real-time monitoring.</li>
+          <li><b>Access Control Systems:</b> Keyless entry systems for secure access.</li>
+          <li><b>Intrusion Detection Systems:</b> Advanced alarms and sensors to prevent unauthorized access.</li>
+        </ul>
+        <p>
+          We combine innovation, reliability, and expertise to deliver solutions that meet your security needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- service Header -->
+<section id="services">
+ <section class="servise-header text-light p-5 text-center ">
+  <h1 style="font-size: 2.5rem;">service</h1>
+ </section>
+
+
+ <section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background-color: #fff; transition: box-shadow 0.3s; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);" class="service-card position-relative " >
+          <img src="./image/d1.jpg" alt="Cyber Fighter" class="card-img-top">
+          <h5 class="mt-3">Cyber Fighter</h5>
+          <a href="#" class="btn btn-outline-success mt-3">view more</a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background-color: #fff; transition: box-shadow 0.3s; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);" class="service-card position-relative">
+          <img src="./image/d2.jpg" alt="Online Secure" class="card-img-top">
+          <h5 class="mt-3">Online Secure</h5>
+          <a href="#" class="btn btn-outline-success mt-3">view more</a>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background-color: #fff; transition: box-shadow 0.3s; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);" class="service-card position-relative">
+          <img src="./image/d3.jpg" alt="Safe Enviro" class="card-img-top">
+          <h5 class="mt-3">Safe Enviro</h5>
+          <a href="#" class="btn btn-outline-success mt-3">view more</a>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background-color: #fff; transition: box-shadow 0.3s; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);" class="service-card position-relative">
+          <img src="./image/d4.jpg" alt="Fighter Cyber" class="card-img-top">
+          <h5 class="mt-3">Fighter Cyber</h5>
+          <a href="#" class="btn btn-outline-success mt-3">veiw more</a>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background-color: #fff; transition: box-shadow 0.3s; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);" class="service-card position-relative">
+          <img src="./image/d5.jpg" alt="Offline Secure" class="card-img-top">
+          <h5 class="mt-3">Offline Secure</h5>
+          <a href="#" class="btn btn-outline-success mt-3">veiw more</a>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background-color: #fff; transition: box-shadow 0.3s; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);" class="service-card position-relative" >
+          <img src="./image/d6.jpg" alt="Safe CCTV" class="card-img-top">
+          <h5 class="mt-3">Safe CCTV</h5>
+          <a href="#" class="btn btn-outline-success mt-3">veiw more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+</section>
+ 
+
+<!-- prodect Header -->
+<section id="products">
+  <section class="products-header text-light p-5 text-center ">
+   <h1 style="font-size: 2rem;">products</h1>
+  </section>
+
+  <div class="container my-5  ">
+    <div class="row">
+    <div class="col-6">
+    <div class="card mb-3 " style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./image/E1.jpg"  class="img-fluid rounded-start" alt="Product">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 class="card-title text-success">Aeruvami</h3>
+            <p class="card-text">Wireless surveillance camera Portable 1080px</p>
+            <p class="card-text text-warning"><strong class="">Price: 430 L.E</strong></p>
+            <form id="addToCartForm" action="/add-to-cart" method="POST">
+              <div class="mb-3">
+                <label for="quantity" class="form-label">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1" required>
+              </div>
+              <a type="submit" href="https://www.amazon.eg/%D9%84%D8%A7%D8%B3%D9%84%D9%83%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A-%D9%88%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D8%8C-%D8%A7%D9%8A%D8%B1%D9%88%D9%81%D8%A7%D9%85%D9%8A/dp/B09L81DRVJ/ref=sr_1_15?crid=2Z316INPEMQ7W&dib=eyJ2IjoiMSJ9.TZXT3Ke8cSySEUnzaX1MKun-J8ruBM-__KSBAS-WFamxCmbhsqQ0kRkcbaQfFX4QMN-ApIVoVH4OYsIPS8yiAxzRH017Q2fyM0ZHpshW4ksvJUH-P4gatFa0ARdlqPl7d9GJE7d5Y3Lb-BScpnUXmCmIlUOVAIL4y3vrf7jHN65djNRYZeAqh5koigOZd6RRuv9vsHoa6xhDkS8QC9Y7MVzlC-jGvJBvq716DADFYP3-y8bwLsCwr4C3Jn8UEtq-m7Wfr_FI7BBQnBNMIh5qbFMub8Ww7xJbgSwjUqLj2m7_-uFH-eAau478JZNkOW7RpApsmGKTMekt_ibODaBGx8CBCnBEnQjo1yFA_fztsG-i5cFEPWhJ1bOd4D5CY38TqF5fdgpjbeLVqdfk8AOvw1IzSDbw9o9B1eaymk9GRnX8jpIurJg301ZVrF8oum-g.eMppj-F_f43rf1B5iXO5IZ-I8_lQUODkrvLowbKrE0Q&dib_tag=se&keywords=Aeruvami+Wireless+surveillance+camera+Portable+1080px&qid=1734938846&sprefix=aeruvami+wireless+surveillance+camera+portable+1080px%2Caps%2C171&sr=8-15" class="btn btn-primary w-100">Add to Cart</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="col-6">
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="./image/e2.jpg" class="img-fluid rounded-start" alt="Product">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title text-success">Solo Cam S40</h3>
+          <p class="card-text">A wireless camera powered by solar energy against water and dust</p>
+          <p class="card-text text-warning"><strong>Price: 8,200 L.E</strong></p>
+          <form id="addToCartForm" action="/add-to-cart" method="POST">
+            <div class="mb-3">
+              <label for="quantity" class="form-label">Quantity:</label>
+              <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1" required>
+            </div>
+            <a type="submit" href="https://www.amazon.eg/%D8%B3%D9%88%D9%84%D9%88%D9%83%D8%A7%D9%85-%D9%84%D8%A7%D8%B3%D9%84%D9%83%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D9%85%D8%B3%D9%8A%D8%A9%D8%8C-%D9%88%D8%A7%D9%84%D8%BA%D8%A8%D8%A7%D8%B1%D8%8C/dp/B099497T4R/ref=sr_1_29?crid=X95GEAXCGMIS&dib=eyJ2IjoiMSJ9.O3qDLqNBFdpHXjqbkctBCj0z_eU75_UybrAoNDb5c3QS5KbgUluAY2HYygQPRlDeLWwgbfoCARYHeIcmCdytOTvfDmwTUa6zzkSac4Ciipp0ueE4NlnDbnTEMpTcfBMeMLBKiCt16yxh2AYcOIQixmr1GvmwswjoVYAnZ-AkibFnsBmzKCuWbTrPRvyOUwCGct_69JRxLtOsK99uhbhheolYDo_oqXqiQ5BzzIDEe-3w8j7fAj8Xjee9I9UL73Y1QWfaee93WEPsJzO5AOUWVuLl1S2N0hbExRQ26COuGW2JdQA6F_HVP2hf1GvK_kICfSomSPE52nO3LiTV9OE53595F7eYmvFYnyRGu5SMXZ2vHspj-_xkPOgKcIflUWkCxZBPuEwmV7imRfkmYo839XccqTF-RoQcseY0M2f1OoF3W3cZFL3nzsqQBLLLuj0z.FUgE_5MJ2wCAg1c0_VYXd5QXWSUrnN8QKdAoZYNbf4o&dib_tag=se&keywords=security+camera+and+sensor&qid=1734938383&sprefix=security+camera+and+sencor%2Caps%2C216&sr=8-29" class="btn btn-primary w-100">Add to Cart</a>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="container my-5  ">
+  <div class="row">
+  <div class="col-6">
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0 ">
+      <div class="col-md-4">
+        <img src="./image/E3.jpg" style="width: 100%;" class="mg-fluid rounded-start" width="140"  height="170"  alt="Product">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title text-success">Generic</h3>
+          <p class="card-text">A door lock equipped with a small camera that works via fingerprint and card</p>
+          <p class="card-text text-warning"><strong>Price: 17,850 L.E</strong></p>
+          <form id="addToCartForm" action="/add-to-cart" method="POST">
+            <div class="mb-3">
+              <label for="quantity" class="form-label">Quantity:</label>
+              <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1" required>
+            </div>
+            <a  type="submit" href="https://www.amazon.eg/%D9%85%D8%B2%D9%88%D8%AF-%D8%A8%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D8%A7-%D9%88%D8%AE%D8%A7%D8%B5%D9%8A%D8%A9-%D8%A7%D9%84%D8%B1%D8%A4%D9%8A%D8%A9-%D8%A7%D9%84%D9%84%D9%8A%D9%84%D9%8A%D8%A9/dp/B0CWYXXSTF/ref=sr_1_4_sspa?crid=X95GEAXCGMIS&dib=eyJ2IjoiMSJ9.O3qDLqNBFdpHXjqbkctBCj0z_eU75_UybrAoNDb5c3QS5KbgUluAY2HYygQPRlDeLWwgbfoCARYHeIcmCdytOTvfDmwTUa6zzkSac4Ciipp0ueE4NlnDbnTEMpTcfBMeMLBKiCt16yxh2AYcOIQixmr1GvmwswjoVYAnZ-AkibFnsBmzKCuWbTrPRvyOUwCGct_69JRxLtOsK99uhbhheolYDo_oqXqiQ5BzzIDEe-3w8j7fAj8Xjee9I9UL73Y1QWfaee93WEPsJzO5AOUWVjvMLuR8o1SwJD2bAN6AQ94.mlpowKfP4C651g8RWpw2BEQ_ZqzBZ9cF51DV-WUTVXc&dib_tag=se&keywords=security+camera+and+sensor&qid=1734938383&sprefix=security+camera+and+sencor%2Caps%2C216&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn btn-primary w-100">Add to Cart</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-6">
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./image/e4.jpg" class="img-fluid rounded-start" alt="Product">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title text-success">Generic</h3>
+        <p class="card-text">360 degree outdoor surveillance camera, color night vision with rotation, weather resistant</p>
+        <p class="card-text text-warning"><strong>Price: 3,950 L.E</strong></p>
+        <form id="addToCartForm" action="/add-to-cart" method="POST">
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity:</label>
+            <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1" required>
+          </div>
+          <a type="submit" href="https://www.amazon.eg/%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D8%A7-%D9%84%D8%A7%D8%B3%D9%84%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AC%D8%A7%D9%87/dp/B09LWVCS5X/ref=sr_1_43?crid=X95GEAXCGMIS&dib=eyJ2IjoiMSJ9.O3qDLqNBFdpHXjqbkctBCj0z_eU75_UybrAoNDb5c3QS5KbgUluAY2HYygQPRlDeLWwgbfoCARYHeIcmCdytOTvfDmwTUa6zzkSac4Ciipp0ueE4NlnDbnTEMpTcfBMe_HobsgzYbuqRdHIrM-5L2XWOBhAPnccnfDxUjGPen72C56uqKwaJyXRFEUJby9PyPD-73NU7X4EMddYeD9927IlYDo_oqXqiQ5BzzIDEe-3w8j7fAj8Xjee9I9UL73Y1QWfaee93WEPsJzO5AOUWVuLl1S2N0hbExRQ26COuGW2JdQA6F_HVP2hf1GvK_kICAcUiB_dvPQgpgBzfDZ-NLHwB4NdocKr_86ORbDjmBeOvHspj-_xkPOgKcIflUWkCxZBPuEwmV7imRfkmYo839WkmgBwkCzjyRfKsA5z9_L53W3cZFL3nzsqQBLLLuj0z.B4DkEPaBwvLXLToIem15WZaa0M6EJrZhK3r-Y9SfIf8&dib_tag=se&keywords=security+camera+and+sensor&qid=1734937022&sprefix=security+camera+and+sencor%2Caps%2C216&sr=8-43" class="btn btn-primary w-100">Add to Cart</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- project Header -->
+<section id="projects">
+ <section class="project-header text-light p-5 text-center ">
+  <h1 style="font-size: 2rem;">project</h1>
+ </section>
+
+ <br>
+ <br>
+
+  <div class="container">
+  <div class="gallery row g-4">
+    <div class="col-md-4">
+   <div class="image-container">
+      <img style="border-radius: 10px; height: 380px;" src="./image/s1.jpg" height="50vh" alt="Camera 1" class="img-fluid"> 
+      <div class="hover-text ">  <h2 class="text-warning">@mina_aness</h2> <p class="text-light">Night cameras provide exceptional benefits in low-light or dark conditions, making them essential for various applications </p> </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+<div class="image-container">
+      <img style="border-radius: 10px; height: 380px;" src="./image/s2.jpg" height="50vh" alt="Camera 2" class="img-fluid"> 
+      <div class="hesham">
+        <div class="hover-text ">  <h2 class="text-warning">@lamin_yamal</h2> <p class="text-light">Solar-powered surveillance cameras offer reliable and eco-friendly security, especially in off-grid areas. They operate independently of the electrical grid using solar panels and batteries.</p> </div>
+      </div>
+      
+    </div>
+    </div>
+    <div class="col-md-4">
+<div class="image-container">
+      <img style="border-radius: 10px; height: 380px;" src="./image/s3.jpg" height="50vh" alt="Camera 3" class="img-fluid"> 
+      <div class="hover-text ">  <h2 class="text-warning">@raphinha</h2> <p class="text-light">Surveillance poles with multiple cameras provide comprehensive monitoring by offering 360-degree coverage. These poles are ideal for large areas like public spaces.</p></div>
+    </div>
+    </div>
+    <div class="col-md-4">
+<div class="image-container">
+      <img style="border-radius: 10px; height: 380px;" src="./image/s4.jpg" height="50vh" alt="Camera 4" class="img-fluid"> 
+      <div class="hover-text ">  <h2 class="text-warning">@pedri_gonzaliz</h2> <p class="text-light">Installing surveillance cameras is a valuable security investment but requires careful planning and the right equipment.</p> </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+<div class="image-container">
+      <img style="border-radius: 10px; height: 380px;" src="./image/s5.jpg" height="50vh" alt="Camera 5" class="img-fluid"> 
+      <div class="hover-text ">  <h2 class="text-warning">@pablo_gavi</h2> <p class="text-light">Dual-sided surveillance cameras provide enhanced coverage by monitoring two directions simultaneously. These cameras are ideal for large areas.</p> </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image-container">
+      <img style="border-radius: 10px; height: 380px;" src="./image/s6.jpg" height="50vh" alt="Camera 6" class="img-fluid"> 
+      <div class="hover-text "> <h2 class="text-warning">@ronald_arujo</h2> <p class="text-light">Modern surveillance cameras have evolved with advanced features that enhance security and ease of use.</p> </div>
+    </div>
+    </div>
+  </div>
+ </div>
+</section>
+
+
+<br>
+
+
+
+<!-- contact Header -->
+<section id="contact">
+ <section class="contact-header text-light p-5 text-center ">
+  <h1 style="font-size: 2.5rem;">contact</h1>
+ </section>
+
+ <br>
+ <br>
+
+ <!-- Contact Info Section -->
+ <div class="container contact-info">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-3 bg-success text-light text-center">
+                <i class="bi bi-telephone fs-1"></i>
+                <h5>Contacts</h5>
+                <p>+20 1234567890</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 bg-success text-light text-center">
+                <i class="bi bi-envelope fs-1"></i>
+                <h5>Email</h5>
+                <p>example@gmail.com</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 bg-success text-light text-center">
+                <i class="bi bi-geo-alt fs-1"></i>
+                <h5>Location</h5>
+                <p>WE Suez School</p>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<br>
+<br>
+ <!-- Contact Form Section -->
+ <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form class="contact-form">
+                <div class="mb-3">
+                    <label for="companyName" class="form-label text-secondary">Company Name</label>
+                    <input type="text" class="form-control" id="companyName" placeholder="Enter your company name">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label text-secondary">Phone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label text-secondary">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+                </div>
+              </form>
+          <button type="submit" class="btn btn-outline-success w-100">Send Message</button> 
+        </div>
+    </div>
+ </div>
+</section>
+
+<br>
+
+<footer style="background-color: #1a1a1a; color: #fff; padding: 40px 20px;">
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="#" style="margin: 0 10px; color: #fff; text-decoration: none;">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width: 24px; height: 24px;">
+    </a>
+    <a href="#" style="margin: 0 10px; color: #fff; text-decoration: none;">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+    </a>
+    <a href="#" style="margin: 0 10px; color: #fff; text-decoration: none;">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Instagram" style="width: 24px; height: 24px;">
+    </a>
+    <a href="#" style="margin: 0 10px; color: #fff; text-decoration: none;">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Twitter" style="width: 24px; height: 24px;">
+    </a>
+    <p style="margin-top: 10px;">© 2024 Happy Marketer Private Ltd. All Rights Reserved.</p>
+  </div>
+<hr>
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form class="contact-form">
+              <h3 class="text-center">feedback</h3>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="feedback" placeholder="Enter your feedback">
+                </div>
+              </form>
+              <div class="text-center">
+          <button type="submit" class="btn btn-outline-success w-50">submit</button> 
+        </div>
+        </div>
+    </div>
+ </div>
+
+
+</footer>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/etmaad.js"></script>
+
+</body>
+</html>
